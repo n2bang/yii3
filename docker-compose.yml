@@ -1,0 +1,30 @@
+services:
+  app:
+    container_name: yii3_basic
+    build: .
+    user: ${UID}:${GID}
+    environment:
+      COMPOSER_CACHE_DIR: /app/runtime/cache/composer
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    command: php ./yii serve 0.0.0.0
+
+  db:
+    container_name: yii3_mysql
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: yii3_demo
+      MYSQL_USER: yii3
+      MYSQL_PASSWORD: yii3_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
