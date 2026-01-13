@@ -10,7 +10,9 @@ RUN apt -y install \
 
 # PHP extensions
 RUN docker-php-ext-install -j$(nproc) \
-    intl
+    intl \
+    pdo \
+    pdo_mysql
 
 # Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
