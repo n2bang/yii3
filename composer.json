@@ -67,7 +67,6 @@
         "yiisoft/db": "^2",
         "yiisoft/db-migration": "^2.0.1",
         "yiisoft/db-mysql": "^2",
-        "yiisoft/db-sqlite": "^2",
         "yiisoft/definitions": "^3.4.1",
         "yiisoft/di": "^1.4.1",
         "yiisoft/error-handler": "^4.3.2",

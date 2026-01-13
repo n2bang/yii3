@@ -12,10 +12,10 @@ return [
         'dsn' => sprintf(
             'mysql:host=%s;dbname=%s;charset=%s',
             $_ENV['DB_HOST'] ?? 'localhost',
-            $_ENV['DB_NAME'] ?? 'yii3_demo',
+            $_ENV['DB_NAME'] ?? 'yii3_db',
             $_ENV['DB_CHARSET'] ?? 'utf8mb4'
         ),
         'username' => $_ENV['DB_USER'] ?? 'root',
-        'password' => $_ENV['DB_PASSWORD'] ?? '',
+        'password' => $_ENV['DB_PASSWORD'] ?? 'root123qwe',
     ],
 ];

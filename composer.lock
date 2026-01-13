@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76d3e3f3c758aa57fbfddce03ef1cf6f",
+    "content-hash": "c9884213afd1bbe9eb8bb14b7cc3778a",
     "packages": [
         {
             "name": "alexkart/curl-builder",
@@ -3341,88 +3341,6 @@
                 }
             ],
             "time": "2025-12-05T14:58:24+00:00"
-        },
-        {
-            "name": "yiisoft/db-sqlite",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yiisoft/db-sqlite.git",
-                "reference": "b0158543abb378e4524777c8000e3a2180ff6363"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/db-sqlite/zipball/b0158543abb378e4524777c8000e3a2180ff6363",
-                "reference": "b0158543abb378e4524777c8000e3a2180ff6363",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "ext-pdo": "*",
-                "php": "8.1 - 8.5",
-                "yiisoft/db": "^2.0"
-            },
-            "provide": {
-                "yiisoft/db-implementation": "1.0.0"
-            },
-            "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.8.3",
-                "friendsofphp/php-cs-fixer": "^3.89.1",
-                "maglnet/composer-require-checker": "^4.7.1",
-                "phpunit/phpunit": "^10.5.45",
-                "rector/rector": "^2.0.10",
-                "spatie/phpunit-watcher": "^1.24",
-                "yiisoft/aliases": "^2.0",
-                "yiisoft/psr-dummy-provider": "^1.0",
-                "yiisoft/test-support": "^3.0",
-                "yiisoft/var-dumper": "^1.7"
-            },
-            "type": "library",
-            "extra": {
-                "bamarni-bin": {
-                    "bin-links": true,
-                    "forward-command": true,
-                    "target-directory": "tools"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Yiisoft\\Db\\Sqlite\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "SQLite driver for Yii Database",
-            "homepage": "https://www.yiiframework.com/",
-            "keywords": [
-                "database",
-                "dbal",
-                "query-builder",
-                "sql",
-                "sqlite",
-                "yii"
-            ],
-            "support": {
-                "chat": "https://t.me/yii3en",
-                "forum": "https://www.yiiframework.com/forum/",
-                "irc": "ircs://irc.libera.chat:6697/yii",
-                "issues": "https://github.com/yiisoft/db-sqlite/issues?state=open",
-                "source": "https://github.com/yiisoft/db-sqlite",
-                "wiki": "https://www.yiiframework.com/wiki/"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/yiisoft",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/yiisoft",
-                    "type": "opencollective"
-                }
-            ],
-            "time": "2025-12-05T14:55:48+00:00"
         },
         {
             "name": "yiisoft/definitions",
